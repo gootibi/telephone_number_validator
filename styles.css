@@ -1,0 +1,59 @@
+html {
+    text-align: center;
+    background-color: rgb(3, 64, 3);
+    color: azure;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-container {
+    margin: 20px;
+}
+
+.input-container {
+    background-color: rgb(3, 44, 44);
+    padding: 20px 20px 30px 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 5px;
+}
+
+#text-input {
+    border-radius: 5px;
+    user-select: none;
+    height: 25px;
+    font: bold 14px arial;
+}
+
+#check-btn, #clear-btn {
+    padding: 5px 10px;
+    font: 700;
+    font-size: medium;
+    border-radius: 5px;
+    background-color: rgb(193, 193, 208);
+    color: rgb(49, 41, 31);
+    border: none;
+}
+
+#check-btn {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#check-btn:active {
+    scale: 0.95;
+}
+
+#clear-btn:active {
+    scale: 0.95;
+}
+
+#results-div {
+    font: 800;
+    font-size: larger
+}
